@@ -1,0 +1,65 @@
+body{
+    width: auto;
+}
+.picture-Container{
+    background-image: url("../images/foods/firstPic.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#contactForm{
+    width: 500px;
+    margin: auto;
+    background-color: #ffffff;
+    border-radius: 25px;
+}
+fieldset{
+    border: none;
+}
+legend{
+    text-align: center;
+    font-family: Lobster Two Regular;
+    font-size: 50px;
+    color: #151d25;
+}
+table{
+    margin: auto;
+    line-height: 2.5;
+}
+.fonts1{
+    width: 200px;
+    font-size: 20px;
+    font-family: Montserrat Regular;
+    font-weight: lighter;
+    color: #1c3f63;
+}
+.fonts2{
+    font-size: 20px;
+    font-family: Lobster Two Regular;
+    font-weight: lighter;
+    color: #1c3f63;
+}
+.submit{
+    color: #ffffff;
+    border-radius: 25px;
+    background-color: #151d25;
+    width: 100px;
+    height: 30px;
+}
+td[colspan="2"] {
+    text-align: center;
+}
+select{
+    text-align-last:center;
+}
+input{
+    width: 200px;
+    height: 30px;
+    float: right;
+    padding: 0px 15px;
+}
+input:last-child{
+    float: none;
+}
+.empty1{
+    height: 100px;
+}
